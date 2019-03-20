@@ -1,0 +1,13 @@
+{
+  "_0HURcksvEemThO9ocg6ezg": {
+    "clazz": "MasterDesign",
+    "name": "gen-less",
+    "cell": [],
+    "tube": []
+  },
+  "_0Eg1EEsvEemThO9ocg6ezg": {
+    "clazz": "Layer",
+    "name": "swarm",
+    "constraint": []
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:master="http://www.brainspeedtech.com/swarm/master" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <notation:Diagram xmi:id="_0HURcEsvEemThO9ocg6ezg" type="Master" element="_0HURcksvEemThO9ocg6ezg" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_0HURcUsvEemThO9ocg6ezg"/>
+  </notation:Diagram>
+  <master:MasterDesign xmi:id="_0HURcksvEemThO9ocg6ezg" name="gen-less"/>
+</xmi:XMI>
