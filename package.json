@@ -4,8 +4,8 @@
     "version": "0.0.1",
     "main": "dist/less.min.js",
     "devDependencies": {
-        "@kurlytail/gen-sgen": "1.1.2",
-        "@kurlytail/gen-log": "1.1.1",
+        "@kurlytail/gen-sgen": "^1.1.6",
+        "@kurlytail/gen-log": "^1.1.5",
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.0.1",
@@ -69,6 +69,6 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-lib": "1.1.2"
+        "@kurlytail/gen-lib": "^1.1.3"
     }
 }
