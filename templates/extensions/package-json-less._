@@ -1,0 +1,6 @@
+<%if (labels.includes('devDependencies')) {%>
+        "mini-css-extract-plugin": "^0.5.0",
+        "less-loader": "^4.1.0",
+        "css-loader": "^2.1.1",
+        "style-loader": "^0.23.1"
+<%}%>

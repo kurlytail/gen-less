@@ -1,10 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run less commands 1`] = `
-"
-info: loading map templates/map.json
+"info: Loaded generator @kurlytail/gen-npm@1.2.1
+
+info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
 info: Initializing git repository testoutput/.git
-info: Generated testoutput/.prettierrc from template templates/.prettierrc._
+info: Generated testoutput/.editorconfig from template node_modules/@kurlytail/gen-npm/templates/.editorconfig._
+info: Generated testoutput/.eslintignore from template node_modules/@kurlytail/gen-npm/templates/.eslintignore._
+info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/babelrc._
+info: Generated testoutput/.babelrc from template node_modules/@kurlytail/gen-npm/templates/.babelrc._
+info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/eslintrc-js._
+info: Generated testoutput/.eslintrc.js from template node_modules/@kurlytail/gen-npm/templates/.eslintrc.js._
+info: Generated testoutput/.gitignore from template node_modules/@kurlytail/gen-npm/templates/.gitignore._
+info: Generated testoutput/.npmignore from template node_modules/@kurlytail/gen-npm/templates/.npmignore._
+info: Generated testoutput/.prettierrc from template node_modules/@kurlytail/gen-npm/templates/.prettierrc._
+info: Generated testoutput/Jenkinsfile from template node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._
+info: loading extension templates/extensions/package-json-less._
+info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-misc._
+info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-jest._
+info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-babel._
+info: Generated testoutput/package.json from template node_modules/@kurlytail/gen-npm/templates/package.json._
+info: Generated testoutput/README.md from template node_modules/@kurlytail/gen-npm/templates/README.md._
+info: loading extension templates/extensions/webpack-config._
+info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/webpack-config._
+info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/webpack-config-1._
+info: Generated testoutput/webpack.config.js from template node_modules/@kurlytail/gen-npm/templates/webpack.config.js._
+info: Generated testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
+info: Generated testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
+info: Generated testoutput/.flowconfig from template node_modules/@kurlytail/gen-npm/templates/.flowconfig._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated

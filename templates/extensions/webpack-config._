@@ -1,0 +1,29 @@
+<%if( labels.includes('module-rules') ) {%>
+{
+    test: /\.(le|c)ss$/,
+    use: [
+        isProd ? {
+            loader: 'style-loader' // creates style nodes from JS strings
+        } : MiniCssExtractPlugin.loader,
+        {
+            loader: 'css-loader', // translates CSS into CommonJS
+            options: {
+                sourceMap: true
+            }
+        },
+        {
+            loader: 'less-loader', // compiles Less to CSS
+            options: {
+                sourceMap: true
+            }
+        }
+    ]
+}
+<%} else if(labels.includes('imports')) {%>
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+<%} else if(labels.includes('plugins')) {%>
+new MiniCssExtractPlugin({
+    filename: isDebug ? '[name].css' : '[name].[hash].css',
+    chunkFilename: isDebug ? '[id].css' : '[id].[hash].css',
+})
+<%}%>
