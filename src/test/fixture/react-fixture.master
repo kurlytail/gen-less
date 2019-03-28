@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flow="http://www.brainspeedtech.com/swarm/flow" xmlns:master="http://www.brainspeedtech.com/swarm/master" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <notation:Diagram xmi:id="_WwCHUDi4EemDPOVSEc-Nig" type="Master" element="_WwCHUji4EemDPOVSEc-Nig" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_WwCHUTi4EemDPOVSEc-Nig"/>
+  </notation:Diagram>
+  <master:MasterDesign xmi:id="_WwCHUji4EemDPOVSEc-Nig" name="react-fixture">
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHVzi4EemDPOVSEc-Nig" input="_LjoPwUXyEemWhr5c0rtZtA" output="_LjoPv0XyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_AppContainer" name="AppContainer">
+      <designCells xmi:type="flow:Cell" href="containers/MainContainer.flow#_rJpnMDuqEem2adJ_qP5fgw"/>
+      <designCells xmi:type="flow:Cell" href="containers/AppContainer.flow#_vhV5sDhIEemsh9kXpzizFw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHWzi4EemDPOVSEc-Nig" output="_LjoPtEXyEemWhr5c0rtZtA _LjoPtUXyEemWhr5c0rtZtA _LjoPuUXyEemWhr5c0rtZtA _LjoPukXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_ButtonComponent" name="ButtonComponent">
+      <designCells xmi:type="flow:Cell" href="components/RegisterComponent.flow#_pMwZQDnUEemDPOVSEc-Nig"/>
+      <designCells xmi:type="flow:Cell" href="components/RegisterComponent.flow#_ZWa-gDucEemDPOVSEc-Nig"/>
+      <designCells xmi:type="flow:Cell" href="components/LoginComponent.flow#_wFS0QDboEemstOQ9crAytw"/>
+      <designCells xmi:type="flow:Cell" href="components/LoginComponent.flow#_0VjIgDboEemstOQ9crAytw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHXDi4EemDPOVSEc-Nig" output="_LjoPu0XyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_CheckboxComponent" name="CheckboxComponent">
+      <designCells xmi:type="flow:Cell" href="components/LoginComponent.flow#_4f3z4DboEemstOQ9crAytw"/>
+      <designCells xmi:type="flow:Cell" href="components/LoginComponent.flow#_gZFkMDnUEemDPOVSEc-Nig"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_Z-3SwDnUEemDPOVSEc-Nig" output="_LjoPs0XyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_EmailComponent" name="EmailComponent">
+      <designCells xmi:type="flow:Cell" href="components/RegisterComponent.flow#_AjswgDciEemsh9kXpzizFw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHWDi4EemDPOVSEc-Nig" output="_LjoPsEXyEemWhr5c0rtZtA _LjoPt0XyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_InputComponent" name="InputComponent">
+      <designCells xmi:type="flow:Cell" href="components/RegisterComponent.flow#_3gzzsDchEemsh9kXpzizFw"/>
+      <designCells xmi:type="flow:Cell" href="components/LoginComponent.flow#_oGB3oDboEemstOQ9crAytw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHXTi4EemDPOVSEc-Nig" output="_LjoPvEXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_LinkComponent" name="LinkComponent">
+      <designCells xmi:type="flow:Cell" href="components/LoginComponent.flow#_qOMBgDbpEemstOQ9crAytw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHWji4EemDPOVSEc-Nig" output="_LjoPwUXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_ListComponent" name="ListComponent">
+      <designCells xmi:type="flow:Cell" href="containers/AppContainer.flow#_w6EAIDhIEemsh9kXpzizFw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHVDi4EemDPOVSEc-Nig" input="_LjoPt0XyEemWhr5c0rtZtA _LjoPuEXyEemWhr5c0rtZtA _LjoPuUXyEemWhr5c0rtZtA _LjoPukXyEemWhr5c0rtZtA _LjoPu0XyEemWhr5c0rtZtA _LjoPvEXyEemWhr5c0rtZtA" output="_LjoPw0XyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_LoginComponent" name="LoginComponent">
+      <designCells xmi:type="flow:Cell" href="components/LoginComponent.flow#_k6QfMDboEemstOQ9crAytw"/>
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#__9H24Dw-Eem-JP8KvVO4dQ"/>
+      <designCells xmi:type="flow:Cell" href="routes/LoginRoute.flow#_dtHU4Dw_Eem-JP8KvVO4dQ"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHVji4EemDPOVSEc-Nig" output="_LjoPwkXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_LogoutComponent" name="LogoutComponent">
+      <designCells xmi:type="flow:Cell" href="containers/UserPanelContainer.flow#_0vY9wDkKEemDPOVSEc-Nig"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_xxuucDuqEem2adJ_qP5fgw" input="_LjoPvUXyEemWhr5c0rtZtA _LjoPvkXyEemWhr5c0rtZtA _LjoPv0XyEemWhr5c0rtZtA _LjoPwEXyEemWhr5c0rtZtA" output="_LjoPxUXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_MainContainer" name="MainContainer">
+      <designCells xmi:type="flow:Cell" href="containers/MainContainer.flow#_mmoH8DuqEem2adJ_qP5fgw"/>
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_CmuWYDw_Eem-JP8KvVO4dQ"/>
+      <designCells xmi:type="flow:Cell" href="routes/DefaultRoute.flow#_RlFzIDw_Eem-JP8KvVO4dQ"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_wDQQ4DueEem2adJ_qP5fgw" input="_LjoPtkXyEemWhr5c0rtZtA" output="_LjoPvUXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_NavigationBarComponent" name="NavigationBarComponent">
+      <designCells xmi:type="flow:Cell" href="components/NavigationBarComponent.flow#_wcaFkDw_Eem-JP8KvVO4dQ"/>
+      <designCells xmi:type="flow:Cell" href="containers/MainContainer.flow#_nRdNoDuqEem2adJ_qP5fgw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHWTi4EemDPOVSEc-Nig" output="_LjoPsUXyEemWhr5c0rtZtA _LjoPskXyEemWhr5c0rtZtA _LjoPuEXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_PasswordComponent" name="PasswordComponent">
+      <designCells xmi:type="flow:Cell" href="components/RegisterComponent.flow#_7dH4QDchEemsh9kXpzizFw"/>
+      <designCells xmi:type="flow:Cell" href="components/RegisterComponent.flow#_9n6U0DchEemsh9kXpzizFw"/>
+      <designCells xmi:type="flow:Cell" href="components/LoginComponent.flow#_rqakYDboEemstOQ9crAytw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_WwCHVTi4EemDPOVSEc-Nig" input="_LjoPsEXyEemWhr5c0rtZtA _LjoPsUXyEemWhr5c0rtZtA _LjoPskXyEemWhr5c0rtZtA _LjoPs0XyEemWhr5c0rtZtA _LjoPtEXyEemWhr5c0rtZtA _LjoPtUXyEemWhr5c0rtZtA" output="_LjoPxEXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_RegisterComponent" name="RegisterComponent">
+      <designCells xmi:type="flow:Cell" href="components/RegisterComponent.flow#_2sGZQDchEemsh9kXpzizFw"/>
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_B126IDw_Eem-JP8KvVO4dQ"/>
+      <designCells xmi:type="flow:Cell" href="routes/RegisterRoute.flow#_gJAvkDw_Eem-JP8KvVO4dQ"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_HoC7MDw_Eem-JP8KvVO4dQ" input="_LjoPw0XyEemWhr5c0rtZtA _LjoPxEXyEemWhr5c0rtZtA _LjoPxUXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_RootContainer" name="RootContainer">
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#__YrtEDw-Eem-JP8KvVO4dQ"/>
+      <designCells xmi:type="flow:Cell" href="routes/RegisterRoute.flow#_fPiJ4Dw_Eem-JP8KvVO4dQ"/>
+      <designCells xmi:type="flow:Cell" href="routes/LoginRoute.flow#_dAYKsDw_Eem-JP8KvVO4dQ"/>
+      <designCells xmi:type="flow:Cell" href="routes/DefaultRoute.flow#_QhfoIDw_Eem-JP8KvVO4dQ"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_wDQQ4TueEem2adJ_qP5fgw" output="_LjoPwEXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_SidePanelComponent" name="SidePanelComponent">
+      <designCells xmi:type="flow:Cell" href="containers/MainContainer.flow#_r9XjIDuqEem2adJ_qP5fgw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_xxuucTuqEem2adJ_qP5fgw" output="_LjoPvkXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_StatusComponent" name="StatusComponent">
+      <designCells xmi:type="flow:Cell" href="containers/MainContainer.flow#_plaNQDuqEem2adJ_qP5fgw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_ncF7sDkKEemDPOVSEc-Nig" input="_LjoPwkXyEemWhr5c0rtZtA" output="_LjoPtkXyEemWhr5c0rtZtA" count="1" external="false" internalName="master_cell_UserPanelContainer" name="UserPanelContainer">
+      <designCells xmi:type="flow:Cell" href="components/NavigationBarComponent.flow#_xrMM4Dw_Eem-JP8KvVO4dQ"/>
+      <designCells xmi:type="flow:Cell" href="containers/UserPanelContainer.flow#_mvgigDkKEemDPOVSEc-Nig"/>
+    </cell>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPtkXyEemWhr5c0rtZtA" from="_ncF7sDkKEemDPOVSEc-Nig" internalName="UserPanelContainer-Account-NavigationBarComponent" name="Account" to="_wDQQ4DueEem2adJ_qP5fgw">
+      <designTubes xmi:type="flow:Tube" href="components/NavigationBarComponent.flow#_0_DxYDw_Eem-JP8KvVO4dQ"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPxUXyEemWhr5c0rtZtA" from="_xxuucDuqEem2adJ_qP5fgw" internalName="MainContainer-Application-RootContainer" name="Application" to="_HoC7MDw_Eem-JP8KvVO4dQ">
+      <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_HJsyUDw_Eem-JP8KvVO4dQ"/>
+      <designTubes xmi:type="flow:Tube" href="routes/DefaultRoute.flow#_SgZk0Dw_Eem-JP8KvVO4dQ"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPskXyEemWhr5c0rtZtA" from="_WwCHWTi4EemDPOVSEc-Nig" internalName="PasswordComponent-ConfirmPassword-RegisterComponent" name="ConfirmPassword" to="_WwCHVTi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/RegisterComponent.flow#_-_UMoDchEemsh9kXpzizFw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPs0XyEemWhr5c0rtZtA" from="_Z-3SwDnUEemDPOVSEc-Nig" internalName="EmailComponent-Email-RegisterComponent" name="Email" to="_WwCHVTi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/RegisterComponent.flow#_BsQ7EDciEemsh9kXpzizFw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPwUXyEemWhr5c0rtZtA" from="_WwCHWji4EemDPOVSEc-Nig" internalName="ListComponent-GenericList-AppContainer" name="GenericList" to="_WwCHVzi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="containers/AppContainer.flow#_yCIbcDhIEemsh9kXpzizFw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPw0XyEemWhr5c0rtZtA" from="_WwCHVDi4EemDPOVSEc-Nig" internalName="LoginComponent-Login-RootContainer" name="Login" to="_HoC7MDw_Eem-JP8KvVO4dQ">
+      <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_EO2x0Dw_Eem-JP8KvVO4dQ"/>
+      <designTubes xmi:type="flow:Tube" href="routes/LoginRoute.flow#_edQ_cDw_Eem-JP8KvVO4dQ"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPwkXyEemWhr5c0rtZtA" from="_WwCHVji4EemDPOVSEc-Nig" internalName="LogoutComponent-Logout-UserPanelContainer" name="Logout" to="_ncF7sDkKEemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="containers/UserPanelContainer.flow#_1qc30DkKEemDPOVSEc-Nig"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPv0XyEemWhr5c0rtZtA" from="_WwCHVzi4EemDPOVSEc-Nig" internalName="AppContainer-MainWindow-MainContainer" name="MainWindow" to="_xxuucDuqEem2adJ_qP5fgw">
+      <designTubes xmi:type="flow:Tube" href="containers/MainContainer.flow#_wapmwDuqEem2adJ_qP5fgw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPsEXyEemWhr5c0rtZtA" from="_WwCHWDi4EemDPOVSEc-Nig" internalName="InputComponent-Name-RegisterComponent" name="Name" to="_WwCHVTi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/RegisterComponent.flow#_5GTx4DchEemsh9kXpzizFw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPvUXyEemWhr5c0rtZtA" from="_wDQQ4DueEem2adJ_qP5fgw" internalName="NavigationBarComponent-Navigation-MainContainer" name="Navigation" to="_xxuucDuqEem2adJ_qP5fgw">
+      <designTubes xmi:type="flow:Tube" href="containers/MainContainer.flow#_uj_AEDuqEem2adJ_qP5fgw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPvEXyEemWhr5c0rtZtA" from="_WwCHXTi4EemDPOVSEc-Nig" internalName="LinkComponent-NeedHelp-LoginComponent" name="NeedHelp" to="_WwCHVDi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/LoginComponent.flow#_s4Xv0DbpEemstOQ9crAytw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPsUXyEemWhr5c0rtZtA" from="_WwCHWTi4EemDPOVSEc-Nig" internalName="PasswordComponent-Password-RegisterComponent" name="Password" to="_WwCHVTi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/RegisterComponent.flow#_88Hl0DchEemsh9kXpzizFw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPuEXyEemWhr5c0rtZtA" from="_WwCHWTi4EemDPOVSEc-Nig" internalName="PasswordComponent-Password-LoginComponent" name="Password" to="_WwCHVDi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/LoginComponent.flow#_s02-QDboEemstOQ9crAytw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPtEXyEemWhr5c0rtZtA" from="_WwCHWzi4EemDPOVSEc-Nig" internalName="ButtonComponent-Register-RegisterComponent" name="Register" to="_WwCHVTi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/RegisterComponent.flow#_qvDScDnUEemDPOVSEc-Nig"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPukXyEemWhr5c0rtZtA" from="_WwCHWzi4EemDPOVSEc-Nig" internalName="ButtonComponent-Register-LoginComponent" name="Register" to="_WwCHVDi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/LoginComponent.flow#_1ph44DboEemstOQ9crAytw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPxEXyEemWhr5c0rtZtA" from="_WwCHVTi4EemDPOVSEc-Nig" internalName="RegisterComponent-Register-RootContainer" name="Register" to="_HoC7MDw_Eem-JP8KvVO4dQ">
+      <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_FP2UwDw_Eem-JP8KvVO4dQ"/>
+      <designTubes xmi:type="flow:Tube" href="routes/RegisterRoute.flow#_hP6GMDw_Eem-JP8KvVO4dQ"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPu0XyEemWhr5c0rtZtA" from="_WwCHXDi4EemDPOVSEc-Nig" internalName="CheckboxComponent-RememberMe-LoginComponent" name="RememberMe" to="_WwCHVDi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/LoginComponent.flow#_5dvKUDboEemstOQ9crAytw"/>
+      <designTubes xmi:type="flow:Tube" href="components/LoginComponent.flow#_iInBEDnUEemDPOVSEc-Nig"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPwEXyEemWhr5c0rtZtA" from="_wDQQ4TueEem2adJ_qP5fgw" internalName="SidePanelComponent-SidePanel-MainContainer" name="SidePanel" to="_xxuucDuqEem2adJ_qP5fgw">
+      <designTubes xmi:type="flow:Tube" href="containers/MainContainer.flow#_xUc8kDuqEem2adJ_qP5fgw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPtUXyEemWhr5c0rtZtA" from="_WwCHWzi4EemDPOVSEc-Nig" internalName="ButtonComponent-SignIn-RegisterComponent" name="SignIn" to="_WwCHVTi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/RegisterComponent.flow#_cR8UcDucEemDPOVSEc-Nig"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPuUXyEemWhr5c0rtZtA" from="_WwCHWzi4EemDPOVSEc-Nig" internalName="ButtonComponent-SignIn-LoginComponent" name="SignIn" to="_WwCHVDi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/LoginComponent.flow#_yErSEDboEemstOQ9crAytw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPvkXyEemWhr5c0rtZtA" from="_xxuucTuqEem2adJ_qP5fgw" internalName="StatusComponent-Status-MainContainer" name="Status" to="_xxuucDuqEem2adJ_qP5fgw">
+      <designTubes xmi:type="flow:Tube" href="containers/MainContainer.flow#_vYAeADuqEem2adJ_qP5fgw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="_LjoPt0XyEemWhr5c0rtZtA" from="_WwCHWDi4EemDPOVSEc-Nig" internalName="InputComponent-UserName-LoginComponent" name="UserName" to="_WwCHVDi4EemDPOVSEc-Nig">
+      <designTubes xmi:type="flow:Tube" href="components/LoginComponent.flow#_pMDEgDboEemstOQ9crAytw"/>
+    </tube>
+  </master:MasterDesign>
+</xmi:XMI>

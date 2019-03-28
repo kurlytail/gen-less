@@ -16,6 +16,7 @@ const options = {
     // eslint-disable-next-line no-undef
     version: app.version,
     extension: [`${basePath}/templates/extensions`],
+    map: [`${basePath}/templates/map.json`],
     generator: ['npm']
 };
 

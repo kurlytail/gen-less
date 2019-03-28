@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flow="http://www.brainspeedtech.com/swarm/flow" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <flow:Flow xmi:id="_lalW8DkKEemDPOVSEc-Nig" name="UserPanelContainer">
+    <cell xmi:type="flow:Cell" xmi:id="_mvgigDkKEemDPOVSEc-Nig" input="_1qc30DkKEemDPOVSEc-Nig" name="UserPanelContainer"/>
+    <cell xmi:type="flow:Cell" xmi:id="_0vY9wDkKEemDPOVSEc-Nig" output="_1qc30DkKEemDPOVSEc-Nig" name="LogoutComponent"/>
+    <tube xmi:type="flow:Tube" xmi:id="_1qc30DkKEemDPOVSEc-Nig" from="_0vY9wDkKEemDPOVSEc-Nig" name="Logout" to="_mvgigDkKEemDPOVSEc-Nig"/>
+  </flow:Flow>
+  <notation:Diagram xmi:id="_lal-ADkKEemDPOVSEc-Nig" type="Flow" element="_lalW8DkKEemDPOVSEc-Nig" name="UserPanelContainer.flow" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_mvoeUDkKEemDPOVSEc-Nig" type="2001" element="_mvgigDkKEemDPOVSEc-Nig" fontName=".SF NS Text">
+      <children xmi:type="notation:DecorationNode" xmi:id="_mvoeUjkKEemDPOVSEc-Nig" type="5001"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvoeUTkKEemDPOVSEc-Nig" x="405" y="194"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_0vay8DkKEemDPOVSEc-Nig" type="2001" element="_0vY9wDkKEemDPOVSEc-Nig" fontName=".SF NS Text">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0vay8jkKEemDPOVSEc-Nig" type="5001"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0vay8TkKEemDPOVSEc-Nig" x="612" y="84"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_lal-ATkKEemDPOVSEc-Nig"/>
+    <edges xmi:type="notation:Connector" xmi:id="_1qde4DkKEemDPOVSEc-Nig" type="4001" element="_1qc30DkKEemDPOVSEc-Nig" source="_0vay8DkKEemDPOVSEc-Nig" target="_mvoeUDkKEemDPOVSEc-Nig" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1qde4zkKEemDPOVSEc-Nig" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1qde5DkKEemDPOVSEc-Nig" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_1qde4TkKEemDPOVSEc-Nig" fontName=".SF NS Text"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1qde4jkKEemDPOVSEc-Nig" points="[31, -20, -137, 89]$[169, -92, 1, 17]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AmKckEXyEemWhr5c0rtZtA" id="(0.3522727272727273,0.875)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

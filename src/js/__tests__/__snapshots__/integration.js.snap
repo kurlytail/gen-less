@@ -4,6 +4,7 @@ exports[`# integration test ## should generate design and run less commands 1`] 
 "info: Loaded generator @kurlytail/gen-npm@1.2.1
 
 info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
+info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
 info: Generated testoutput/.editorconfig from template node_modules/@kurlytail/gen-npm/templates/.editorconfig._
 info: Generated testoutput/.eslintignore from template node_modules/@kurlytail/gen-npm/templates/.eslintignore._
@@ -28,6 +29,7 @@ info: Generated testoutput/webpack.config.js from template node_modules/@kurlyta
 info: Generated testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generated testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
 info: Generated testoutput/.flowconfig from template node_modules/@kurlytail/gen-npm/templates/.flowconfig._
+info: Generated testoutput/src/styles/styles.less from template templates/src/styles/styles.less._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
