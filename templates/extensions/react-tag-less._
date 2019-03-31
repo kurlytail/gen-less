@@ -1,0 +1,14 @@
+<%
+const cell = design.MasterCell.find(cell => cell.name === context);
+const className = lodash.upperFirst(lodash.camelCase(cell.name));
+%>
+
+<% if (labels.includes('component-attributes')) { %>
+style={Styles.<%=className%>}
+<% } else if (labels.includes('component-header-attributes')) { %>
+style={Styles.<%=className%>Header}
+<% } else if (labels.includes('component-body-attributes')) { %>
+style={Styles.<%=className%>Body}
+<% } else if (labels.includes('component-imports')) { %>
+import Styles from 'styles/components/<%=className%>.less';
+<% } %>

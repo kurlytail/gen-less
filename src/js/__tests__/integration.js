@@ -13,7 +13,7 @@ describe('# integration test', () => {
 
     it('## should generate design and run less commands', () => {
         let output = execSync('npm run build').toString();
-        output = execSync('sgen -g `pwd`/dist/less.min.js -d src/test/fixture/design.json -o testoutput').toString();
+        output = execSync('sgen -g react -g `pwd`/dist/less.min.js -d src/test/fixture/design.json -o testoutput').toString();
         output = output.replace(/info: Loaded generator .*less.min.js.*/, '');
         expect(output).toMatchSnapshot();
         output = execSync('npm install', { cwd: 'testoutput' }).toString();

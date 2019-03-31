@@ -1,0 +1,16 @@
+<%
+const cell = design.MasterCell.find(cell => cell.name === context);
+const className = lodash.upperFirst(lodash.camelCase(cell.name));
+%>
+
+<%=className%> {
+
+}
+
+<%=className%>Header {
+
+}
+
+<%=className%>Body {
+
+}

@@ -1,15 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run less commands 1`] = `
-"info: Loaded generator @kurlytail/gen-npm@1.2.1
+"info: Loaded generator @kurlytail/gen-npm@1.2.3
+info: Loaded generator @kurlytail/gen-react@1.2.4
 
 info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
+info: loading map node_modules/@kurlytail/gen-react/templates/map.json
 info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
 info: Generated testoutput/.editorconfig from template node_modules/@kurlytail/gen-npm/templates/.editorconfig._
 info: Generated testoutput/.eslintignore from template node_modules/@kurlytail/gen-npm/templates/.eslintignore._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/babelrc._
 info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/babelrc._
 info: Generated testoutput/.babelrc from template node_modules/@kurlytail/gen-npm/templates/.babelrc._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/eslintrc-js._
 info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/eslintrc-js._
 info: Generated testoutput/.eslintrc.js from template node_modules/@kurlytail/gen-npm/templates/.eslintrc.js._
 info: Generated testoutput/.gitignore from template node_modules/@kurlytail/gen-npm/templates/.gitignore._
@@ -17,18 +21,89 @@ info: Generated testoutput/.npmignore from template node_modules/@kurlytail/gen-
 info: Generated testoutput/.prettierrc from template node_modules/@kurlytail/gen-npm/templates/.prettierrc._
 info: Generated testoutput/Jenkinsfile from template node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._
 info: loading extension templates/extensions/package-json-less._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/package-json-react._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/package-json-jsdoc._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/package-json-client._
 info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-misc._
 info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-jest._
 info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-babel._
 info: Generated testoutput/package.json from template node_modules/@kurlytail/gen-npm/templates/package.json._
 info: Generated testoutput/README.md from template node_modules/@kurlytail/gen-npm/templates/README.md._
 info: loading extension templates/extensions/webpack-config._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/webpack-config._
 info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/webpack-config._
 info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/webpack-config-1._
 info: Generated testoutput/webpack.config.js from template node_modules/@kurlytail/gen-npm/templates/webpack.config.js._
-info: Generated testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
+info: Generated testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/src/js/index.js._
 info: Generated testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
 info: Generated testoutput/.flowconfig from template node_modules/@kurlytail/gen-npm/templates/.flowconfig._
+info: Generated testoutput/jsdoc.json from template node_modules/@kurlytail/gen-react/templates/jsdoc.json._
+info: Generated testoutput/src/js/index.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/index.jsx._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-component-import-components._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-component-import-base._
+info: loading extension templates/extensions/react-tag-less._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-tag-component._
+info: Generated testoutput/src/js/components/CheckboxComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/checkbox-component.jsx._
+info: Generated testoutput/src/js/components/__tests__/CheckboxComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/RegisterComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
+info: Generated testoutput/src/js/components/__tests__/RegisterComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/LoginComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
+info: Generated testoutput/src/js/components/__tests__/LoginComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/LogoutComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
+info: Generated testoutput/src/js/components/__tests__/LogoutComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/ButtonComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/button-component.jsx._
+info: Generated testoutput/src/js/components/__tests__/ButtonComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/StatusComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
+info: Generated testoutput/src/js/components/__tests__/StatusComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/InputComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/input-component.jsx._
+info: Generated testoutput/src/js/components/__tests__/InputComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/EmailComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/email-component.jsx._
+info: Generated testoutput/src/js/components/__tests__/EmailComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/NavigationBarComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
+info: Generated testoutput/src/js/components/__tests__/NavigationBarComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/PasswordComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/password-component.jsx._
+info: Generated testoutput/src/js/components/__tests__/PasswordComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/LinkComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/link-component.jsx._
+info: Generated testoutput/src/js/components/__tests__/LinkComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/SidePanelComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
+info: Generated testoutput/src/js/components/__tests__/SidePanelComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/ListComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
+info: Generated testoutput/src/js/components/__tests__/ListComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: Generated testoutput/src/js/components/index.js from template node_modules/@kurlytail/gen-react/templates/src/js/components/index.js._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-import-router._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-import-containers._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-import-components._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-import-base._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-children._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-child._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-return._
+info: Generated testoutput/src/js/containers/MainContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._
+info: Generated testoutput/src/js/containers/__tests__/MainContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._
+info: Generated testoutput/src/js/containers/AppContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._
+info: Generated testoutput/src/js/containers/__tests__/AppContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._
+info: Generated testoutput/src/js/containers/UserPanelContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._
+info: Generated testoutput/src/js/containers/__tests__/UserPanelContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._
+info: Generated testoutput/src/js/containers/RootContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._
+info: Generated testoutput/src/js/containers/__tests__/RootContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._
+info: Generated testoutput/src/js/containers/index.js from template node_modules/@kurlytail/gen-react/templates/src/js/containers/index.js._
+info: Generated testoutput/src/js/html.jst from template node_modules/@kurlytail/gen-react/templates/src/js/html.jst._
+info: Generated testoutput/src/styles/components/CheckboxComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/RegisterComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/LoginComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/LogoutComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/ButtonComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/StatusComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/InputComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/EmailComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/NavigationBarComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/PasswordComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/LinkComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/SidePanelComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/components/ListComponent.less from template templates/src/styles/component.less._
+info: Generated testoutput/src/styles/containers/MainContainer.less from template templates/src/styles/container.less._
+info: Generated testoutput/src/styles/containers/AppContainer.less from template templates/src/styles/container.less._
+info: Generated testoutput/src/styles/containers/UserPanelContainer.less from template templates/src/styles/container.less._
+info: Generated testoutput/src/styles/containers/RootContainer.less from template templates/src/styles/container.less._
 info: Generated testoutput/src/styles/styles.less from template templates/src/styles/styles.less._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated

@@ -26,4 +26,6 @@ new MiniCssExtractPlugin({
     filename: isDebug ? '[name].css' : '[name].[hash].css',
     chunkFilename: isDebug ? '[id].css' : '[id].[hash].css',
 })
+<%} else if(labels.includes('resolve-extensions')) {%>
+'.less', '.css'
 <%}%>

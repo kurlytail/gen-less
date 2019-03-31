@@ -1,4 +1,25 @@
 {
+<%
+design.MasterCell.filter(cell => cell.name.endsWith('Component')).forEach(cell => {
+    const className = lodash.upperFirst(lodash.camelCase(cell.name));
+%>
+    "src/styles/components/<%=className%>.less": {
+        "template": "src/styles/component.less._",
+        "context": "<%=cell.name%>"
+    },
+<%
+});
+
+design.MasterCell.filter(cell => cell.name.endsWith('Container')).forEach(cell => {
+    const className = lodash.upperFirst(lodash.camelCase(cell.name));
+%>
+    "src/styles/containers/<%=className%>.less": {
+        "template": "src/styles/container.less._",
+        "context": "<%=cell.name%>"
+    },
+<%
+});
+%>
     "src/styles/styles.less": {
         "template": "src/styles/styles.less._"
     }
