@@ -9,6 +9,14 @@ style={Styles.<%=className%>}
 style={Styles.<%=className%>Header}
 <% } else if (labels.includes('component-body-attributes')) { %>
 style={Styles.<%=className%>Body}
+<% } else if (labels.includes('component-child-attributes')) { %>
+style={Styles.<%=args.tube.name%>}
+<% } else if (labels.includes('container-attributes')) { %>
+style={Styles.<%=className%>}
+<% } else if (labels.includes('container-child-attributes')) { %>
+style={Styles.<%=args.tube.name%>}
 <% } else if (labels.includes('component-imports')) { %>
 import Styles from 'styles/components/<%=className%>.less';
+<% } else if (labels.includes('container-imports')) { %>
+import Styles from 'styles/containers/<%=className%>.less';
 <% } %>

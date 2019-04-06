@@ -14,3 +14,15 @@ const className = lodash.upperFirst(lodash.camelCase(cell.name));
 <%=className%>Body {
 
 }
+
+<%
+cell.input.filter(tube => tube.from.name.endsWith('Component'))
+    .forEach(tube => {
+    const component = tube.from;
+%>
+<%=tube.name%> {
+
+}
+<%
+});
+%>

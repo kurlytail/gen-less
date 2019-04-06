@@ -2,7 +2,7 @@
 
 exports[`# integration test ## should generate design and run less commands 1`] = `
 "info: Loaded generator @kurlytail/gen-npm@1.2.3
-info: Loaded generator @kurlytail/gen-react@1.2.4
+info: Loaded generator @kurlytail/gen-react@1.2.7
 
 info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
 info: loading map node_modules/@kurlytail/gen-react/templates/map.json
@@ -45,6 +45,8 @@ info: loading extension templates/extensions/react-tag-less._
 info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-tag-component._
 info: Generated testoutput/src/js/components/CheckboxComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/checkbox-component.jsx._
 info: Generated testoutput/src/js/components/__tests__/CheckboxComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-component-children._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-component-child._
 info: Generated testoutput/src/js/components/RegisterComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
 info: Generated testoutput/src/js/components/__tests__/RegisterComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
 info: Generated testoutput/src/js/components/LoginComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._
