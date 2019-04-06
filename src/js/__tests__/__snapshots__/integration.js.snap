@@ -2,7 +2,7 @@
 
 exports[`# integration test ## should generate design and run less commands 1`] = `
 "info: Loaded generator @kurlytail/gen-npm@1.2.3
-info: Loaded generator @kurlytail/gen-react@1.2.7
+info: Loaded generator @kurlytail/gen-react@1.2.8
 
 info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
 info: loading map node_modules/@kurlytail/gen-react/templates/map.json
