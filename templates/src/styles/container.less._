@@ -4,5 +4,5 @@ const className = lodash.upperFirst(lodash.camelCase(cell.name));
 %>
 
 <%=className%> {
-
+    <%=extension('less-container-style').join('\n')%>
 }

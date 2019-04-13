@@ -4,15 +4,15 @@ const className = lodash.upperFirst(lodash.camelCase(cell.name));
 %>
 
 <%=className%> {
-
+    <%=extension('less-component-style').join('\n')%>
 }
 
 <%=className%>Header {
-
+    <%=extension('less-container-header').join('\n')%>
 }
 
 <%=className%>Body {
-
+    <%=extension('less-container-body').join('\n')%>
 }
 
 <%
@@ -21,7 +21,7 @@ cell.input.filter(tube => tube.from.name.endsWith('Component'))
     const component = tube.from;
 %>
 <%=tube.name%> {
-
+    <%=extension('less-container-link').join('\n')%>
 }
 <%
 });
