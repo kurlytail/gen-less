@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run less commands 1`] = `
-"info: Loaded generator @kurlytail/gen-npm@1.2.5
-info: Loaded generator @kurlytail/gen-react@1.2.8
+"info: Loaded generator @kurlytail/gen-npm@1.2.17
+info: Loaded generator @kurlytail/gen-react@1.2.9
 
 info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
 info: loading map node_modules/@kurlytail/gen-react/templates/map.json
@@ -42,6 +42,7 @@ info: Generated testoutput/src/js/index.jsx from template node_modules/@kurlytai
 info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-component-import-components._
 info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-component-import-base._
 info: loading extension templates/extensions/react-tag-less._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-tag-container._
 info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-tag-component._
 info: Generated testoutput/src/js/components/CheckboxComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/checkbox-component.jsx._
 info: Generated testoutput/src/js/components/__tests__/CheckboxComponent.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._
