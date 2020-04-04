@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run less commands 1`] = `
-"info: Loaded generator @kurlytail/gen-npm@1.2.17
-info: Loaded generator @kurlytail/gen-react@1.2.9
+"
 
-info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
+
+info: loading map node_modules/@kurlytail/gen-npm/templates/map.yml
 info: loading map node_modules/@kurlytail/gen-react/templates/map.json
 info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
@@ -114,19 +114,5 @@ info: Creating new branch master-sgen-generated
 warn: Checkout branch master
 warn: Checkout branch master
 info: sgen is done
-"
-`;
-
-exports[`# integration test ## should print help options 1`] = `
-"Usage:
-  node sgen [OPTION]
-
-Options:
-  -m, --map=ARG+       mapping files
-  -d, --design=ARG+    design files
-  -e, --extension=ARG+ extension directories or files
-  -o, --output=ARG     output directory for generated files
-  -g, --generator=ARG+ generators to be used
-  -h, --help           display this help
 "
 `;
