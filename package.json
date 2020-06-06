@@ -1,7 +1,7 @@
 {
     "name": "@kurlytail/gen-less",
     "description": "LESS project generator",
-    "version": "0.0.64",
+    "version": "0.0.65",
     "main": "dist/less.min.js",
     "devDependencies": {
         "@babel/cli": "7.10.1",
